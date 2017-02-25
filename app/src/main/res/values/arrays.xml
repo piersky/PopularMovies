@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prefs_sort_options_labels">
+        <item>@string/prefs_sort_pop_label</item>
+        <item>@string/prefs_sort_rating_label</item>
+        <item>@string/prefs_sort_favorites_label</item>
+    </string-array>
+
+    <string-array name="prefs_sort_options_values">
+        <item>@string/prefs_sort_pop_value</item>
+        <item>@string/prefs_sort_rating_value</item>
+        <item>@string/prefs_sort_favorites_value</item>
+    </string-array>
+</resources>

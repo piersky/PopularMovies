@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/grid_layout_review"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:text="@string/details_review_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:padding="@dimen/details_padding" />
+
+    <TextView
+        android:id="@+id/tv_author_name"
+        tools:text="Author's name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/tv_author"
+        android:padding="@dimen/details_padding"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_comment"
+        tools:text="Long comment here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_author"
+        android:padding="@dimen/details_padding"/>
+
+    <View
+        android:id="@+id/view_divider_2"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="@dimen/details_padding"
+        android:layout_marginRight="@dimen/details_padding"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_comment"
+        android:layout_marginStart="@dimen/details_padding"
+        android:layout_marginEnd="@dimen/details_padding" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="imageview_padding">8dp</dimen>
+
+    <dimen name="details_padding">20dp</dimen>
+    <dimen name="details_header_height">140dp</dimen>
+    <dimen name="details_padding_top_header">50dp</dimen>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="content_authority">com.pierluigipapeschi.popularmovies2</string>
+
+    <string name="app_name">Popular Movies 2</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+
+    <string name="prefs_sort_key" translatable="false">sort</string>
+    <string name="prefs_sort_title">Sort by</string>
+
+    <string name="prefs_sort_pop_label">Sort by popularity</string>
+    <string name="prefs_sort_rating_label">Sort by best vote</string>
+    <string name="prefs_sort_favorites_label">Show your favorites</string>
+
+    <string name="prefs_sort_pop_value" translatable="false">popular</string>
+    <string name="prefs_sort_rating_value" translatable="false">top_rated</string>
+    <string name="prefs_sort_favorites_value" translatable="false">my_favorites</string>
+
+    <string name="details_year">Year</string>
+    <string name="details_overview">Description</string>
+    <string name="details_trailers">Trailers:</string>
+    <string name="details_button_add">Add to\nfavorites</string>
+    <string name="details_button_remove">Remove from\nfavorites</string>
+    <string name="details_added_to_favorites">Movie added to favorites</string>
+    <string name="details_removed_from_favorites">Movie removed from favorites</string>
+    <string name="details_review_author">Comment by: </string>
+    <string name="details_button_show_reviews">Show reviews</string>
+    <string name="details_no_reviews_found">Sorry, no reviews available at the moment</string>
+</resources>
